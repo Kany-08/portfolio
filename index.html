@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Dopefolio</title>
+  <meta name="description" content="Portfolio Template for Developer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/img/avatar.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Kany Sharapova</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, My name is Kany</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          I am a passionate frontend developer based in Kaiserslautern, Germany. I love building apps that solve
+          real-world problems, and that are delightful to use.
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">See my projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/kanyshai-sharapova-7617501bb" class="home-hero__social-icon-link"
+          target="_blank">
+          <img src="./assets/img/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://www.github.com/Kany-08" class="home-hero__social-icon-link" target="_blank">
+          <img src="./assets/img/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://www.discordapp.com/users/1337923001815011403" class="home-hero__social-icon-link"
+          target="_blank">
+          <img src="./assets/img/discord.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          All my projects include links to the code and live version. Click the button to learn more about each one.
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/img/gar.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Garden Shop</h3>
+            <p class="projects__row-content-desc">
+              This is a frontend final project for an online store selling home and garden goods. The application
+              provides a user-friendly interface for browsing products, categorizing them, adding items to cart, and
+              placing orders.
+            </p>
+            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/img/watch.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Movie Watchlist App</h3>
+            <p class="projects__row-content-desc">
+              A mini solo project that allows users to search for movies using the OMDB API and maintain a personal
+              watchlist. The application features a clean, user-friendly interface with persistent data storage using
+              the browser's local storage.
+            </p>
+            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/img/rest.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Restaurant Ordering App</h3>
+            <p class="projects__row-content-desc">
+              This project is a restaurant ordering app that allows users to view the menu and place orders efficiently.
+            </p>
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          <p>I am a passionate frontend developer based in Kaiserslautern, Germany. I love building apps that solve
+            real-world problems, and that are delightful to use. My specialities include TypeScript and React JS.
+          </p>
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              I'm a versatile and curious individual who enjoys learning and exploring different areas beyond
+              technology. I’m passionate about cinema, art, and literature, which help me see problems from different
+              perspectives. <br>
+              <br>
+              I genuinely enjoy problem-solving - whether it’s debugging code or figuring out the best strategy in a
+              board game. Analytical thinking and creativity are qualities I value and continuously develop.
+
+            </p>
+          </div>
+
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React</div>
+            <div class="skills__skill">TypeScript</div>
+            <div class="skills__skill">Git</div>
+            <div class="skills__skill">Figma</div>
+            <div class="skills__skill">Tailwind CSS</div>
+            <div class="skills__skill">Styled Components</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <h4 class="heading heading-sm text-lt">kanysharapova@gmail.com</h4>
+      <div class="main-footer__social-cont">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kanyshai-sharapova-7617501bb">
+          <img class="main-footer__icon" src="./assets/img/linkedin-ico.png" alt="icon" />
+        </a>
+        <a target="_blank" rel="noreferrer" href="https://www.github.com/Kany-08">
+          <img class="main-footer__icon" src="./assets/img/github-ico.png" alt="icon" />
+        </a>
+        <a target="_blank" rel="noreferrer" href="https://www.discordapp.com/users/1337923001815011403">
+          <img class="main-footer__icon" src="./assets/img/discord.png" alt="icon" />
+        </a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
